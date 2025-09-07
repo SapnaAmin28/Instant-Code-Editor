@@ -1,24 +1,45 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>instant-studio-share</title>
-    <meta name="description" content="Lovable Generated Project" />
-    <meta name="author" content="Lovable" />
+    <title>Instant Code Studio</title>
+    <meta name="description" content="Your online HTML, CSS, JS playground" />
 
-    <meta property="og:title" content="instant-studio-share" />
-    <meta property="og:description" content="Lovable Generated Project" />
+    <!-- Favicon -->
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/1055/1055687.png" />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Meta Open Graph for social sharing -->
+    <meta property="og:title" content="Instant Code Studio" />
+    <meta property="og:description" content="Live HTML, CSS, JS playground online" />
     <meta property="og:type" content="website" />
-    <meta property="og:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+    <meta property="og:image" content="https://cdn-icons-png.flaticon.com/512/1055/1055687.png" />
 
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@lovable_dev" />
-    <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
   </head>
 
-  <body>
-    <div id="root"></div>
+  <body style="margin:0; font-family: 'Roboto', sans-serif; background: #f0f2f5;">
+    <!-- Header Section -->
+    <header style="text-align:center; padding: 2rem; background: linear-gradient(90deg, #667eea, #764ba2); color:white;">
+      <h1 style="margin:0; font-size: 2.5rem;">🚀 Instant Code Studio</h1>
+      <p style="font-size: 1.2rem; margin-top:0.5rem;">Write HTML, CSS, and JS with live preview</p>
+    </header>
+
+    <!-- App Mount Point -->
+    <main id="root" style="padding: 2rem;"></main>
+
+    <!-- Footer -->
+    <footer style="text-align:center; padding: 1rem; color: #555;">
+      Made with ❤️ by Your Name
+    </footer>
+
+    <!-- React App Script -->
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
